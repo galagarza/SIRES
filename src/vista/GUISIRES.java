@@ -53,6 +53,7 @@ public class GUISIRES extends javax.swing.JFrame {
         mnRegistro = new javax.swing.JMenu();
         mniRegistroEstudiante = new javax.swing.JMenuItem();
         mniRegistroCursos = new javax.swing.JMenuItem();
+        jMenuItem1 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Sistema de Registro de Estudiantes (SIRES)");
@@ -87,6 +88,9 @@ public class GUISIRES extends javax.swing.JFrame {
 
         mniRegistroCursos.setText("Registro Cursos");
         mnRegistro.add(mniRegistroCursos);
+
+        jMenuItem1.setText("Matrícula");
+        mnRegistro.add(jMenuItem1);
 
         mbSIRES.add(mnRegistro);
 
@@ -143,6 +147,7 @@ public class GUISIRES extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JMenuBar mbSIRES;
     private javax.swing.JMenu mnArchivo;
